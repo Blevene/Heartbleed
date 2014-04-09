@@ -5,6 +5,8 @@ A checker (site and tool) for CVE-2014-0160.
 
 Public site at http://filippo.io/Heartbleed/
 
+ssltester.sh expects a 1 URL per line (i.e. Unix new line terminated) in servers.txt.
+
 Tool usage: `Heartbleed [-service="service_name"] example.com[:443]`
         or: `Heartbleed service_name://example.com[:443]`
 
